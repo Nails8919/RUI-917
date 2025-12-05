@@ -6,7 +6,7 @@ import RightColumn from './components/Rightcolumn'
 
 const App = () => {
   return (
-    <>
+    <div>
       <div>
         <div className="w-screen overflow">
           <Header />
@@ -26,7 +26,7 @@ const App = () => {
         <div>
           <Footer />
         </div>
-    </>
+    </div>
   )
 }
 
